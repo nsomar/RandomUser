@@ -1,6 +1,6 @@
 # RandomUser
 
-[![CI Status](http://img.shields.io/travis/Omar Abdelhafith/RandomUser.svg?style=flat)](https://travis-ci.org/Omar Abdelhafith/RandomUser)
+[![Build Status](https://travis-ci.org/oarrabi/RandomUser.svg?branch=master)](https://travis-ci.org/oarrabi/RandomUser)
 [![Version](https://img.shields.io/cocoapods/v/RandomUser.svg?style=flat)](http://cocoadocs.org/docsets/RandomUser)
 [![License](https://img.shields.io/cocoapods/l/RandomUser.svg?style=flat)](http://cocoadocs.org/docsets/RandomUser)
 [![Platform](https://img.shields.io/cocoapods/p/RandomUser.svg?style=flat)](http://cocoadocs.org/docsets/RandomUser)
