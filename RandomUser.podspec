@@ -10,19 +10,13 @@
 Pod::Spec.new do |s|
   s.name             = "RandomUser"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RandomUser."
-  s.description      = <<-DESC
-                       An optional longer description of RandomUser
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RandomUser"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "Objective c iOS library for to generate random users, using https://randomuser.me/"
+  s.homepage         = "https://github.com/oarrabi/RandomUser.git"
+  s.screenshots     = "http://i1348.photobucket.com/albums/p740/o_abdelhafith/rnd_zpsyeb4amjw.gif"
   s.license          = 'MIT'
-  s.author           = { "Omar Abdelhafith" => "omar.abdelhafith@mttnow.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/RandomUser.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Omar Abdelhafith" => "o.arrabi@me.com" }
+  s.source           = { :git => "https://github.com/oarrabi/RandomUser.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/ifnottrue'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -31,8 +25,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'RandomUser' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
 end
